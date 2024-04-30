@@ -8,3 +8,8 @@ ln -s /workspaces/corne-qmk/picophant40/ /workspaces/qmk_firmware/keyboards/pico
 and all the other keyboards
 now you can compile as normal
 qmk compile -kb picophant40 -km default
+
+create new keymap
+qmk new-keymap
+compile all with 
+qmk userspace-compile
