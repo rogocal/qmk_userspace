@@ -13,3 +13,5 @@ create new keymap
 qmk new-keymap
 compile all with 
 qmk userspace-compile
+
+use task for building: ctrl+shift+B
