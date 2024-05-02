@@ -4,13 +4,79 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build Userspace",
+            "label": "Build userspace",
             "type": "shell",
-            "command": "qmk userspace-compile",
+            "command": "qmk userspace-compile; echo Done.",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
-                "isDefault": true
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": true,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": false,
+                "close": false
+            }
+        },
+        {
+            "label": "Build picophant default",
+            "type": "shell",
+            "command": "qmk compile -kb picophant40 -km default",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": true,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": false,
+                "close": false
+            }
+        },
+        {
+            "label": "Build picophant rogocal",
+            "type": "shell",
+            "command": "qmk compile -kb picophant40 -km rogocal",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": true,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": false,
+                "close": false
+            }
+        },
+        {
+            "label": "Build corne rogocal",
+            "type": "shell",
+            "command": "qmk compile -kb crkbd -km rogocal",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": true,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": false,
+                "close": false
             }
         }
     ]
