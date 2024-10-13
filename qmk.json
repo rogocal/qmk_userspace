@@ -6,5 +6,6 @@
         ["bastardkb/charybdis/3x5/v2/splinky_3", "rogocal"],
         ["crkbd", "rogocal"],
         ["rogocal/rgc_charybdis", "default"]
+        ["rogocal/rgc_charybdis", "rogocal"]
     ]
 }

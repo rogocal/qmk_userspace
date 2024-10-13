@@ -82,7 +82,7 @@
         {
             "label": "Build charybdis",
             "type": "shell",
-            "command": "qmk compile -kb rogocal/rgc_charybdis -km default",
+            "command": "qmk compile -kb rogocal/rgc_charybdis -km rogocal",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
