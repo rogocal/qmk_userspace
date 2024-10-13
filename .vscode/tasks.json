@@ -78,6 +78,25 @@
                 "clear": false,
                 "close": false
             }
+        },
+        {
+            "label": "Build charybdis",
+            "type": "shell",
+            "command": "qmk compile -kb rogocal/rgc_charybdis -km default",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": true,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": false,
+                "close": false
+            }
         }
     ]
 }
