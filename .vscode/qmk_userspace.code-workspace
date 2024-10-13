@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "../../corne-qmk"
+        },
+        {
+            "path": "../../qmk_firmware"
+        }
+    ],
+    "settings": {}
+}
