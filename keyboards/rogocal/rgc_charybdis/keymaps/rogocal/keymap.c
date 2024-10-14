@@ -13,7 +13,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├─────────────────────────────────────────────┤ ├─────────────────────────────────────────────┤
           KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,       KC_K,    KC_M, KC_COMM,  KC_DOT, KC_SLSH,
   // ╰─────────────────────────────────────────────┤ ├─────────────────────────────────────────────╯
-                          TH_ESC,  TH_TAB,  TH_ENT,     TH_SPC, TH_BSPC
+                          TH_ESC,  TH_ENT, TH_TAB,    TH_BSPC,  TH_SPC
   //                   ╰───────────────────────────╯ ╰──────────────────╯
   ),
 
@@ -62,6 +62,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        C(KC_Z), C(KC_X), C(KC_C), C(KC_V), C(KC_Y),    KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE,
   // ╰─────────────────────────────────────────────┤ ├─────────────────────────────────────────────╯
                          XXXXXXX, _______,  KC_ENT,     KC_SPC,  MO_ADJ
+  //                   ╰───────────────────────────╯ ╰──────────────────╯
+  ),
+
+  [L_MOUSE] = LAYOUT(
+  // ╭─────────────────────────────────────────────╮ ╭─────────────────────────────────────────────╮
+       XXXXXXX, KC_ACL1, KC_ACL1, KC_ACL0, XXXXXXX,    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+  // ├─────────────────────────────────────────────┤ ├─────────────────────────────────────────────┤
+       XXXXXXX, KC_BTN3, KC_BTN2, KC_BTN1, XXXXXXX,    XXXXXXX, KC_LCTL, KC_LSFT, KC_LALT, KC_LGUI,
+  // ├─────────────────────────────────────────────┤ ├─────────────────────────────────────────────┤
+       C(KC_Z), C(KC_X), C(KC_C), C(KC_V), C(KC_Y),    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+  // ╰─────────────────────────────────────────────┤ ├─────────────────────────────────────────────╯
+                         _______, XXXXXXX,  KC_ENT,     KC_SPC,  MO_ADJ
   //                   ╰───────────────────────────╯ ╰──────────────────╯
   ),
 
