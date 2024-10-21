@@ -79,9 +79,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [L_MOUSE] = LAYOUT(
   // ╭─────────────────────────────────────────────╮ ╭─────────────────────────────────────────────╮
-       XXXXXXX, KC_ACL1, KC_ACL1, KC_ACL0, XXXXXXX,    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+       XXXXXXX, KC_ACL2, KC_ACL1, KC_ACL0, XXXXXXX,   DPI_RMOD, XXXXXXX, XXXXXXX, XXXXXXX,S_D_RMOD,
   // ├─────────────────────────────────────────────┤ ├─────────────────────────────────────────────┤
-       XXXXXXX, KC_BTN3, KC_BTN2, KC_BTN1, XXXXXXX,    XXXXXXX, KC_LCTL, KC_LSFT, KC_LALT, KC_LGUI,
+       DRGSCRL, KC_BTN3, KC_BTN2, KC_BTN1, SNIPING,    DPI_MOD, KC_BTN1, KC_BTN2, KC_BTN3, S_D_MOD,
   // ├─────────────────────────────────────────────┤ ├─────────────────────────────────────────────┤
        C(KC_Z), C(KC_X), C(KC_C), C(KC_V), C(KC_Y),    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   // ╰─────────────────────────────────────────────┤ ├─────────────────────────────────────────────╯
