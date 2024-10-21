@@ -1,6 +1,6 @@
 #include QMK_KEYBOARD_H
 
-#define MACRO_TIMER 100 // The amount of time, in milliseconds, to wait before typing the next character.
+#define MACRO_TIMER 10 // The amount of time, in milliseconds, to wait before typing the next character.
 
 #if (__has_include("secrets.h") && !defined(NO_SECRETS))
 #include "secrets.h"
