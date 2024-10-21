@@ -6,6 +6,7 @@ enum layer_names {
   L_NUMPAD,
   L_NAVIGATION,
   L_SYMBOLS,
+  L_FUNCTION,
   L_MOUSE,
   L_ADJUST
 };

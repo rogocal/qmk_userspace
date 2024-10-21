@@ -18,10 +18,11 @@
 #define TH_ESC  LT(L_MOUSE, KC_ESC)       /* Tap for Escape, Hold for RAISE layer */
 #define TH_TAB  LT(L_SYMBOLS, KC_TAB)     /* Tap for Tab, Hold for LOWER layer */
 #define TH_ENT  LT(L_NUMPAD, KC_ENT)      /* Tap for Enter, Hold for RAISE layer */
-#define TH_SPC  LT(L_NAVIGATION, KC_SPC)       /* Tap for Space, Hold for RAISE layer */
+#define TH_SPC  LT(L_NAVIGATION, KC_SPC)  /* Tap for Space, Hold for RAISE layer */
 #define TH_BSPC LT(L_NAVIGATION, KC_BSPC) /* Tap for Backpace, Hold for RAISE layer */
+#define TH_K0   LT(L_FUNCTION, KC_0)      /* Tap for 0, Hold for function layer */
 
-/* Layeer modifications */
+/* Layer modifications */
 #define MO_ADJ MO(L_ADJUST) /* Momentarily turn on ADJUST layer when pressed */
 #define TO_QWRT TO(L_QWERTY) /* Turns on layer L_QWERTY */
 #define TO_CLMK TO(L_COLEMAK) /* Turns on layer L_COLEMAK */
