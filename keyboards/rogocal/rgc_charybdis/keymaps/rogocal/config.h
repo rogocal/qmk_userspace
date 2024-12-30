@@ -30,4 +30,5 @@
 // #define PERMISSIVE_HOLD
 #endif
 
+/* Mouse config. */
 #define CHARYBDIS_DRAGSCROLL_REVERSE_Y
