@@ -44,7 +44,7 @@
         {
             "label": "Build picophant rogocal",
             "type": "shell",
-            "command": "qmk compile -kb picophant40 -km rogocal",
+            "command": "qmk compile -kb rogocal/picophant40 -km rogocal",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
@@ -83,6 +83,25 @@
             "label": "Build charybdis",
             "type": "shell",
             "command": "qmk compile -kb rogocal/rgc_charybdis -km rogocal",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": true,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": false,
+                "close": false
+            }
+        },
+        {
+            "label": "Build gamepad",
+            "type": "shell",
+            "command": "qmk compile -kb rogocal/rp2040_gamepad -km default",
             "problemMatcher": [],
             "group": {
                 "kind": "build",

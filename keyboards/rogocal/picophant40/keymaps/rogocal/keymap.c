@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, KC_PGDN, KC_LEFT, KC_DOWN,KC_RIGHT, KC_CAPS,                      XXXXXXX, KC_LCTL, KC_LSFT, KC_LALT, KC_LGUI, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-               C(KC_Z), C(KC_X), C(KC_C), C(KC_V), C(KC_Y),                       SCRT_1,  SCRT_2,  SCRT_3, SCRT_4, XXXXXXX, 
+               C(KC_Z), C(KC_X), C(KC_C), C(KC_V), C(KC_Y),                       SCRT_1,  SCRT_2,  SCRT_3, SCRT_4, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                    KC_DEL, MO(L_ADJUST),  KC_ENT,      XXXXXXX,  _______, XXXXXXX
                                       //`--------------------------'  `--------------------------'
@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+-------+--------+--------|
       KC_LSFT, KC_CIRC, KC_AMPR, KC_GRV , XXXXXXX, XXXXXXX,                      KC_MINS,  KC_EQL, KC_LBRC, KC_RBRC, KC_BSLS, KC_TILD,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+-------+--------+--------|
-               C(KC_Z), C(KC_X), C(KC_C), C(KC_V), C(KC_Y),                      KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE, 
+               C(KC_Z), C(KC_X), C(KC_C), C(KC_V), C(KC_Y),                      KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI,_______,  KC_ENT,     KC_SPC, MO(L_ADJUST), KC_RALT
                                       //`--------------------------'  `--------------------------'
